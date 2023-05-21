@@ -257,7 +257,7 @@ sup {
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
-  top: 50px;
+  top: -30px;
   right: 0%;
   left: 0%;
 }
