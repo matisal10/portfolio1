@@ -242,6 +242,7 @@ sup {
 .tooltip1 {
   position: relative;
   display: inline-block;
+  transition: 1s ;
 }
 
 /* Tooltip text */
@@ -260,59 +261,98 @@ sup {
   top: -30px;
   right: 0%;
   left: 0%;
+  transition: 0.55s;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip1:hover .tooltiptext {
   visibility: visible;
+  transition: 0.55s;
+}
+
+.html{
+  /* color: orangered; */
+  transition: 1s ease-in-out;
+  
 }
 
 .html:hover{
   color: orangered;
-  transition: 0.25s;
   
+}
+
+.css{
+  transition: 1s ease-in-out;
 }
 
 .css:hover{
   color: rgb(77, 77, 248);
-  transition: 0.25s;
+  /* transition: 0.45s; */
+}
+
+.js{
+  transition: 1s ease-in-out;
 }
 
 .js:hover{
   color: yellow;
-  transition: 0.25s;
+  /* transition: 0.45s; */
+}
+
+.react{
+  transition: 1s ease-in-out;
 }
 
 .react:hover{
   color: #61dbfb;
-  transition: 0.25s;
+  /* transition: 0.45s; */
+}
+
+.bootstrap{
+  transition: 1s ease-in-out;
 }
 
 .bootstrap:hover{
   color: #7112f6;
-  transition: 0.25s;
+  /* transition: 0.25s; */
+}
+
+.angular{
+  transition: 1s ease-in-out;
 }
 
 .angular:hover{
   color: rgb(250, 44, 44);
-  transition: 0.25s;
+  /* transition: 0.25s; */
+}
+
+.tailwind{
+  transition: 1s ease-in-out;
 }
 
 .tailwind:hover{
   color:#066173;
   fill: #06b6d4;
   /* fill-rule: var(--bs-body-color); */
-  transition: 0.25s;
+  /* transition: 0.25s; */
+}
+
+.ionic{
+  transition: 1s ease-in-out;
 }
 
 .ionic:hover{
   fill:#066173;
-  transition: 0.25s;
+  /* transition: 0.25s; */
+}
+
+.typeScript{
+  transition: 1s ease-in-out;
 }
 
 .typeScript:hover{
   color: white;
-  transition: 0.25s;
+  /* transition: 0.25s; */
 }
 
 a {
